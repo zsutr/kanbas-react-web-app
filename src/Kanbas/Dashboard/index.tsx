@@ -28,7 +28,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                    <img className="card-img-top" src="/images/codegood.jpg" width="270" height="150" style={{"overflow" : "hidden"}}/>
+                    <img className="card-img-top" src="/images/codegood.jpg" width="270" alt="" height="150" style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS1235 How 2 Code Good 
@@ -46,7 +46,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                  <img className="card-img-top" src="/images/developinghere.jpg" width="270" height="150" style={{"overflow" : "hidden"}}/>
+                  <img className="card-img-top" src="/images/developinghere.jpg" width="270" alt="" height="150" style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS1236 I'm Developing Here! 
@@ -66,7 +66,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                  <img src="/images/criminalhack.jpg" width="100%" height="150" style={{"overflow" : "hidden"}}/>
+                  <img src="/images/criminalhack.jpg" alt="" width="100%" height="150" style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS1237 Hack Like A Criminal 
@@ -84,7 +84,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                  <img src="/images/segfaulting.jpg" width="100%" height="150" style={{"overflow" : "hidden"}}/>
+                  <img src="/images/segfaulting.jpg" alt="" width="100%" height="150" style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS1238 Segfaulting for Dummies 
@@ -102,7 +102,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                  <img src="/images/manymonitors.jpg" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
+                  <img src="/images/manymonitors.jpg" alt="" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS1239 The Art Of Using Many Monitors
@@ -120,7 +120,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                  <img src="/images/antialgorithms.jpg" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
+                  <img src="/images/antialgorithms.jpg" alt="" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS12310 Anti-Algorithms
@@ -138,7 +138,7 @@ export default function Dashboard() {
               <div className="card">
                 <a className="wd-dashboard-course-link text-decoration-none text-dark"
                   href="#/Kanbas/Courses/1234/Home">
-                  <img src="/images/legos.jpg" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
+                  <img src="/images/legos.jpg" width="100%" alt="" height="150"  style={{"overflow" : "hidden"}}/>
                   <div className="card-body">
                     <h5 className="wd-dashboard-course-title card-title">
                     CS12311 LEGO for Engineers

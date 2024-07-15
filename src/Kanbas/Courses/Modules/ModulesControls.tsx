@@ -8,7 +8,7 @@ import { TiCancel } from "react-icons/ti";
 export default function ModulesControls() {
   return (
     
-    
+
     <div id="wd-modules-controls" className="text-nowrap">
         <table id="wd-home">
         <tr>
@@ -36,25 +36,25 @@ export default function ModulesControls() {
         </button>
             <ul className="dropdown-menu" >
                 <li>
-                    <a id="wd-publish-all-modules-and-items-btn" className="dropdown-item" href="#">
+                    <a id="wd-publish-all-modules-and-items-btn" className="dropdown-item" href="../home">
                     <GreenCheckmark />
                     Publish all modules and items
                     </a>
                 </li>
                 <li>
-                    <a id="wd-publish-modules-only-button" className="dropdown-item" href="#">
+                    <a id="wd-publish-modules-only-button" className="dropdown-item" href="../home">
                     <GreenCheckmark />
                     Publish modules only
                     </a>
                 </li>
                 <li>
-                    <a id="wd-unpublish-all-modules-and-items" className="dropdown-item" href="#">
+                    <a id="wd-unpublish-all-modules-and-items" className="dropdown-item" href="../home">
                     <TiCancel />
                     Unpublish All Modules and Items
                     </a>
                 </li>
                 <li>
-                    <a id="wd-unpublish-modules-only" className="dropdown-item" href="#">
+                    <a id="wd-unpublish-modules-only" className="dropdown-item" href="../home">
                     <TiCancel />
                     Unpublish Modules Only
                     </a>

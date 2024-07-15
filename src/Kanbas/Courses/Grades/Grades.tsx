@@ -30,9 +30,9 @@ export default function Grades() {
                                 <LuFileOutput /> Export
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a className="dropdown-item" href="./home">Action</a></li>
+                                <li><a className="dropdown-item" href="./home">Another action</a></li>
+                                <li><a className="dropdown-item" href="./home">Something else here</a></li>
                             </ul>
                         </div>
                         
