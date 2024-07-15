@@ -2,108 +2,157 @@ export default function Dashboard() {
     return (
       <div id="wd-dashboard">
         <h1 id="wd-dashboard-title">Dashboard</h1> <hr />
-        <h2 id="wd-dashboard-published">Published Courses (12)</h2> <hr />
-        <div id="wd-dashboard-courses">
-          <div className="wd-dashboard-course">
-            <img src="/images/reactjs.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1234 React JS
-              </a>
-              <p className="wd-dashboard-course-title">
-                Full Stack software developer
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+        <h3 id="wd-dashboard-published">Published Courses (12)</h3> <hr />
+        <div id="wd-dashboard-courses" className="row">
+          <div className="row row-cols-1 row-cols-md-5 g-4 ">
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img alt="React logo" src="/images/reactjs.jpg" width="100%" height="150" style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                      CS1234 React JS For Newbs
+                    </h5>
+                    <p className="card-text text-truncate">
+                        Full Stack software developer react 1 
+                        <br/> Summer 2024
+                      </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <br/><br/>
-          <div className="wd-dashboard-course">
-            <img src="/images/codegood.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1235 How 2 Code Good 
-              </a>
-              <p className="wd-dashboard-course-title">
-                Am Very Smart and Stuf
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                    <img className="card-img-top" src="/images/codegood.jpg" width="270" height="150" style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS1235 How 2 Code Good 
+                    </h5>
+                    <p className="card-text text-truncate">
+                      Git Very Smart and Stuf <br/> Summer 2024
+                    </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          
-          <br/><br/>
-          <div className="wd-dashboard-course">
-            <img src="/images/developinghere.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1236 I am Developing Here
-              </a>
-              <p className="wd-dashboard-course-title">
-                HEY! I'm codin here! I'm codin here!
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img className="card-img-top" src="/images/developinghere.jpg" width="270" height="150" style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS1236 I'm Developing Here! 
+                    
+                    </h5>
+                    <p className="card-text text-truncate">
+                      HEY! I'm Codin' Here! I'm Codin' Here! <br/>
+                      Summer 2024
+                      </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <br/><br/>
-          <div className="wd-dashboard-course">
-            <img src="/images/criminalhack.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1237 Hack Like A Criminal
-              </a>
-              <p className="wd-dashboard-course-title">
-                And you might even get away with it too
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+            
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img src="/images/criminalhack.jpg" width="100%" height="150" style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS1237 Hack Like A Criminal 
+                    </h5>
+                    <p className="card-text text-truncate">
+                      And Get Away With It Too<br/> Fall 2023
+                      </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          
-          <br/><br/>
-          <div className="wd-dashboard-course">
-            <img src="/images/segfault.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1238 Segfaulting for Dummies
-              </a>
-              <p className="wd-dashboard-course-title">
-                Handle memory or else....
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img src="/images/segfaulting.jpg" width="100%" height="150" style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS1238 Segfaulting for Dummies 
+                    </h5>
+                    <p className="card-text text-truncate">
+                      Your Kernel Is Not Kerneling<br/> Fall 2024
+                      </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <br/><br/>
-          <div className="wd-dashboard-course">
-            <img src="/images/manymonitors.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1239 How to Use Many Many Monitors
-              </a>
-              <p className="wd-dashboard-course-title">
-                It looks more professional that way
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+            
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img src="/images/manymonitors.jpg" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS1239 The Art Of Using Many Monitors
+                    </h5>
+                    <p className="card-text text-truncate">
+                      It Looks More Professional That Way<br/> Spring 2024
+                      </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
-          </div>
-          <br/><br/>
-          <div className="wd-dashboard-course">
-            <img src="/images/antialgorithms.jpg" alt="Nothing" width={200} />
-            <div>
-              <a className="wd-dashboard-course-link"
-                href="#/Kanbas/Courses/1234/Home">
-                CS1231 Anti-Algorithms 101
-              </a>
-              <p className="wd-dashboard-course-title">
-                Let the problems figure themselves out
-              </p>
-              <a href="#/Kanbas/Courses/1234/Home"> Go </a>
+
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img src="/images/antialgorithms.jpg" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS12310 Anti-Algorithms
+                    </h5>
+                    <p className="card-text text-truncate">
+                      Problems on an Indefinite Loop<br/> Spring 2024
+                    </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
             </div>
+            
+            <div className="wd-dashboard-course" style={{ width: "270px" }}>
+              <div className="card">
+                <a className="wd-dashboard-course-link text-decoration-none text-dark"
+                  href="#/Kanbas/Courses/1234/Home">
+                  <img src="/images/legos.jpg" width="100%" height="150"  style={{"overflow" : "hidden"}}/>
+                  <div className="card-body">
+                    <h5 className="wd-dashboard-course-title card-title">
+                    CS12311 LEGO for Engineers
+                    </h5>
+                    <p className="card-text text-truncate">
+                      Just Another Brick In The Wall<br/> Fall 2023
+                      </p>
+                    <button className="btn btn-primary"> Go </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+            
           </div>
-          
         </div>
       </div>
   );}
