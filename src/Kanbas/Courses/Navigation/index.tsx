@@ -1,29 +1,31 @@
+import { courses } from "../../Database";
+import { Navigate, Route, Routes, useParams, useLocation } from "react-router";
+import { Link, NavLink } from 'react-router-dom'
 import "./index.css"
 
+
+
 export default function CoursesNavigation() {
+
+  const {cid} = useParams();
+  const { pathname } = useLocation();
+  const endpath = pathname.split("/")[4]
+  
+
+  const links = ["Home", "Modules", "Piazza", "Zoom", "Assignments", "Quizzes", "Grades"];
+
     return (
       <div id="wd-courses-navigation" className="list-group rounded-0   bottom-0 top-0 d-none d-md-block fs-5 z-2">
-   
-        <a id="wd-course-home-link" href="#/Kanbas/Courses/1234/Home"
-          className="list-group-item active border border-0"> Home </a>
-    
-        <a id="wd-course-modules-link" href="#/Kanbas/Courses/1234/Modules"
-          className="list-group-item text-danger border border-0"> Modules </a>
-
-        <a id="wd-course-piazza-link" href="#/Kanbas/Courses/1234/Piazza"
-          className="list-group-item text-danger border border-0"> Piazza </a>
-
-        <a id="wd-course-zoom-link" href="#/Kanbas/Courses/1234/Zoom"
-          className="list-group-item text-danger border border-0"> Zoom </a>
-
-        <a id="wd-course-quizzes-link" href="#/Kanbas/Courses/1234/Assignments"
-          className="list-group-item text-danger border border-0"> Assignments </a>
-
-        <a id="wd-course-assignments-link" href="#/Kanbas/Courses/1234/Quizzes"
-          className="list-group-item text-danger border border-0"> Quizzes </a>
+        <ul className="list-unstyled">
+          {links.map((item, index) => (
+            <li>
+              <Link key={`${item}-${index}`} to={`/Kanbas/Courses/${cid}/${item}`} className="list-group-item text-danger fs-5 border border-0">
+                {item}
+              </Link>
+            </li>
+          ))} 
+        </ul>
           
-        <a id="wd-course-grades-link" href="#/Kanbas/Courses/1234/Grades"
-          className="list-group-item text-danger border border-0"> Grades </a>
       </div>
   );
 }

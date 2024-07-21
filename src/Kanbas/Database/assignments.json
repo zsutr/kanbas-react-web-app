@@ -1,0 +1,569 @@
+[
+    { 
+        "_id": "A101", 
+        "title": "Propulsion Assignment", 
+        "course": "RS101", 
+        "date_posted": "2024-01-10T23:59:00", 
+        "date_due": "2024-01-17T23:59:00", 
+        "description": "Design and analyze a propulsion system for a spacecraft. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 100 
+    },
+    { 
+        "_id": "A102", 
+        "title": "Combustion Analysis", 
+        "course": "RS101", 
+        "date_posted": "2024-02-15T23:59:00", 
+        "date_due": "2024-02-22T23:59:00", 
+        "description": "Perform detailed analysis of combustion processes in jet engines. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 75 
+    },
+    { 
+        "_id": "A103", 
+        "title": "Nozzle Design Project", 
+        "course": "RS101", 
+        "date_posted": "2024-03-01T23:59:00", 
+        "date_due": "2024-03-08T23:59:00", 
+        "description": "Develop and optimize the design of a nozzle for efficient thrust. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 100 
+    },
+    { 
+        "_id": "A201", 
+        "title": "Aerodynamics Quiz", 
+        "course": "RS102", 
+        "date_posted": "2024-01-05T23:59:00", 
+        "date_due": "2024-01-12T23:59:00", 
+        "description": "Quiz covering principles and applications of aerodynamics. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 75 
+    },
+    { 
+        "_id": "A202", 
+        "title": "Flow Analysis", 
+        "course": "RS102", 
+        "date_posted": "2024-02-10T23:59:00", 
+        "date_due": "2024-02-17T23:59:00", 
+        "description": "Analysis of fluid flow characteristics and their implications. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 100 
+    },
+    { 
+        "_id": "A203", 
+        "title": "Heating Analysis", 
+        "course": "RS102", 
+        "date_posted": "2024-03-20T23:59:00", 
+        "date_due": "2024-03-27T23:59:00", 
+        "description": "Study and analyze heat transfer mechanisms in engineering systems. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 75 
+    },
+    { 
+        "_id": "A301", 
+        "title": "Structural Design Task", 
+        "course": "RS103", 
+        "date_posted": "2024-01-12T23:59:00", 
+        "date_due": "2024-01-19T23:59:00", 
+        "description": "Design a structural component to withstand specified loads. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 100 
+    },
+    { 
+        "_id": "A302", 
+        "title": "Orbital Calculations", 
+        "course": "RS103", 
+        "date_posted": "2024-02-18T23:59:00", 
+        "date_due": "2024-02-25T23:59:00", 
+        "description": "Perform calculations for orbital trajectories and dynamics. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 75 
+    },
+    { 
+        "_id": "A303", 
+        "title": "Systems Engineering Exam", 
+        "course": "RS103", 
+        "date_posted": "2024-03-10T23:59:00", 
+        "date_due": "2024-03-17T23:59:00", 
+        "description": "Comprehensive exam covering systems engineering principles. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 100 
+    },
+    { 
+        "_id": "A401", 
+        "title": "Organic Synthesis Report", 
+        "course": "RS104", 
+        "date_posted": "2024-01-25T23:59:00", 
+        "date_due": "2024-02-01T23:59:00", 
+        "description": "Research and report on methods and applications of organic synthesis. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 75 
+    },
+    { 
+        "_id": "A402", 
+        "title": "Functional Group Identification", 
+        "course": "RS104", 
+        "date_posted": "2024-02-05T23:59:00", 
+        "date_due": "2024-02-12T23:59:00", 
+        "description": "Identify and analyze functional groups in organic molecules. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 100 
+    },
+    { 
+        "_id": "A403", 
+        "title": "Reaction Mechanism Analysis", 
+        "course": "RS104", 
+        "date_posted": "2024-03-15T23:59:00", 
+        "date_due": "2024-03-22T23:59:00", 
+        "description": "Study and analyze reaction mechanisms in organic chemistry. The assignment is available at the link to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories", 
+        "points": 75 
+    },
+    {       
+        "_id": "A501",
+        "title": "Coordination Chemistry Quiz",
+        "course": "RS105",
+        "date_posted": "2024-01-08T23:59:00",
+        "date_due": "2024-01-15T23:59:00",
+        "description": "Quiz covering principles and applications of coordination chemistry. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A502",
+        "title": "Organometallic Complexes Study",
+        "course": "RS105",
+        "date_posted": "2024-02-22T23:59:00",
+        "date_due": "2024-02-29T23:59:00",
+        "description": "Study and analyze properties and applications of organometallic complexes. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A503",
+        "title": "Inorganic Reaction Mechanisms Project",
+        "course": "RS105",
+        "date_posted": "2024-03-02T23:59:00",
+        "date_due": "2024-03-09T23:59:00",
+        "description": "Project on mechanisms of inorganic reactions and their significance. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A601",
+        "title": "Thermodynamics Problem Set",
+        "course": "RS106",
+        "date_posted": "2024-01-15T23:59:00",
+        "date_due": "2024-01-22T23:59:00",
+        "description": "Problem set covering thermodynamic principles and calculations. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A602",
+        "title": "Quantum Chemistry Exam",
+        "course": "RS106",
+        "date_posted": "2024-02-25T23:59:00",
+        "date_due": "2024-03-03T23:59:00",
+        "description": "Exam covering quantum chemistry concepts and applications. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A603",
+        "title": "Statistical Mechanics Assignment",
+        "course": "RS106",
+        "date_posted": "2024-03-05T23:59:00",
+        "date_due": "2024-03-12T23:59:00",
+        "description": "Assignment on statistical mechanics and its relevance in chemistry. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A701",
+        "title": "Elvish Language Translation",
+        "course": "RS107",
+        "date_posted": "2024-01-20T23:59:00",
+        "date_due": "2024-01-27T23:59:00",
+        "description": "Translate passages from English into Elvish language. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A702",
+        "title": "Dwarvish Script Deciphering",
+        "course": "RS107",
+        "date_posted": "2024-02-10T23:59:00",
+        "date_due": "2024-02-17T23:59:00",
+        "description": "Decipher ancient Dwarvish scripts and interpret their meanings. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A703",
+        "title": "Common Tongue Essay",
+        "course": "RS107",
+        "date_posted": "2024-03-18T23:59:00",
+        "date_due": "2024-03-25T23:59:00",
+        "description": "Essay on the evolution and significance of the Common Tongue in Middle-Earth. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A801",
+        "title": "Wizards Biography",
+        "course": "RS108",
+        "date_posted": "2024-01-18T23:59:00",
+        "date_due": "2024-01-25T23:59:00",
+        "description": "Write a biography of a famous wizard in Middle-Earth history. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A802",
+        "title": "Elves and Their Realms Analysis",
+        "course": "RS108",
+        "date_posted": "2024-02-12T23:59:00",
+        "date_due": "2024-02-19T23:59:00",
+        "description": "Analyze the cultures and realms of Elves in Middle-Earth. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A803",
+        "title": "Kingdoms of Men Report",
+        "course": "RS108",
+        "date_posted": "2024-03-15T23:59:00",
+        "date_due": "2024-03-22T23:59:00",
+        "description": "Research and report on the kingdoms and civilizations of Men in Middle-Earth. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A901",
+        "title": "Elvish Magic Research",
+        "course": "RS109",
+        "date_posted": "2024-01-25T23:59:00",
+        "date_due": "2024-02-01T23:59:00",
+        "description": "Research the principles and practices of Elvish magic. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A902",
+        "title": "Maiar Powers Essay",
+        "course": "RS109",
+        "date_posted": "2024-02-15T23:59:00",
+        "date_due": "2024-02-22T23:59:00",
+        "description": "Essay on the powers and roles of the Maiar in Middle-Earth. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A903",
+        "title": "Artifacts and Enchantments Study",
+        "course": "RS109",
+        "date_posted": "2024-03-12T23:59:00",
+        "date_due": "2024-03-19T23:59:00",
+        "description": "Study and analyze significant artifacts and enchantments in Middle-Earth. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1001",
+        "title": "History of Democratic Education Paper",
+        "course": "RS110",
+        "date_posted": "2024-01-22T23:59:00",
+        "date_due": "2024-01-29T23:59:00",
+        "description": "Research and write about the historical development of democratic education. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1002",
+        "title": "Modern Practices Analysis",
+        "course": "RS110",
+        "date_posted": "2024-02-10T23:59:00",
+        "date_due": "2024-02-17T23:59:00",
+        "description": "Analyze modern educational practices in relation to democratic ideals. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1003",
+        "title": "Case Study Presentation",
+        "course": "RS110",
+        "date_posted": "2024-03-14T23:59:00",
+        "date_due": "2024-03-21T23:59:00",
+        "description": "Prepare and present a case study on a democratic education initiative. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1101",
+        "title": "Colonial Independence Essay",
+        "course": "RS111",
+        "date_posted": "2024-01-12T23:59:00",
+        "date_due": "2024-01-19T23:59:00",
+        "description": "Essay on the struggle for colonial independence in the 18th century. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1102",
+        "title": "Revolutionary Leaders Analysis",
+        "course": "RS111",
+        "date_posted": "2024-02-20T23:59:00",
+        "date_due": "2024-02-27T23:59:00",
+        "description": "Analysis of key leaders in revolutionary movements around the world. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1103",
+        "title": "Impact of Revolutions Study",
+        "course": "RS111",
+        "date_posted": "2024-03-10T23:59:00",
+        "date_due": "2024-03-17T23:59:00",
+        "description": "Study the global impact of revolutions on political and social structures. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1201",
+        "title": "Educational Reforms Study",
+        "course": "RS112",
+        "date_posted": "2024-01-20T23:59:00",
+        "date_due": "2024-01-27T23:59:00",
+        "description": "Study the educational reforms and movements of the 19th century. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1202",
+        "title": "Notable Educators Biography",
+        "course": "RS112",
+        "date_posted": "2024-02-08T23:59:00",
+        "date_due": "2024-02-15T23:59:00",
+        "description": "Write a biography of a notable educator from the 19th century. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1203",
+        "title": "Education Systems Development Paper",
+        "course": "RS112",
+        "date_posted": "2024-03-05T23:59:00",
+        "date_due": "2024-03-12T23:59:00",
+        "description": "Examine the development of education systems during the 19th century. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1301",
+        "title": "Apostles Life Essay",
+        "course": "RS113",
+        "date_posted": "2024-01-08T23:59:00",
+        "date_due": "2024-01-15T23:59:00",
+        "description": "Essay on the life and teachings of the apostles in early Christianity. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1302",
+        "title": "Early Christian Communities Study",
+        "course": "RS113",
+        "date_posted": "2024-02-05T23:59:00",
+        "date_due": "2024-02-12T23:59:00",
+        "description": "Study the formation and growth of early Christian communities. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1303",
+        "title": "Spread of Christianity Analysis",
+        "course": "RS113",
+        "date_posted": "2024-03-18T23:59:00",
+        "date_due": "2024-03-25T23:59:00",
+        "description": "Analysis of the spread of Christianity in the ancient world. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1401",
+        "title": "Biblical Ethics Examination",
+        "course": "RS114",
+        "date_posted": "2024-01-10T23:59:00",
+        "date_due": "2024-01-17T23:59:00",
+        "description": "Examination on ethical teachings and principles in the Bible. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1402",
+        "title": "Historical Ethics Development Study",
+        "course": "RS114",
+        "date_posted": "2024-02-15T23:59:00",
+        "date_due": "2024-02-22T23:59:00",
+        "description": "Study the historical development of ethical thought in Christianity. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1403",
+        "title": "Contemporary Christian Ethics Paper",
+        "course": "RS114",
+        "date_posted": "2024-03-10T23:59:00",
+        "date_due": "2024-03-17T23:59:00",
+        "description": "Write a paper on contemporary issues in Christian ethics. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1501",
+        "title": "Biblical Leadership Models Analysis",
+        "course": "RS115",
+        "date_posted": "2024-01-18T23:59:00",
+        "date_due": "2024-01-25T23:59:00",
+        "description": "Analytical study of leadership models in the Bible. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1502",
+        "title": "Historical Christian Leaders Study",
+        "course": "RS115",
+        "date_posted": "2024-02-12T23:59:00",
+        "date_due": "2024-02-19T23:59:00",
+        "description": "Study prominent Christian leaders throughout history. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1503",
+        "title": "Modern Christian Leadership Essay",
+        "course": "RS115",
+        "date_posted": "2024-03-14T23:59:00",
+        "date_due": "2024-03-21T23:59:00",
+        "description": "Essay on contemporary approaches to Christian leadership. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1601",
+        "title": "Introduction to Sufism Report",
+        "course": "RS116",
+        "date_posted": "2024-01-18T23:59:00",
+        "date_due": "2024-01-25T23:59:00",
+        "description": "Report introducing the principles and practices of Sufism. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1602",
+        "title": "Mystical Practices Study",
+        "course": "RS116",
+        "date_posted": "2024-02-10T23:59:00",
+        "date_due": "2024-02-17T23:59:00",
+        "description": "Study various mystical practices within the Sufi tradition. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1603",
+        "title": "Key Sufi Texts Analysis",
+        "course": "RS116",
+        "date_posted": "2024-03-05T23:59:00",
+        "date_due": "2024-03-12T23:59:00",
+        "description": "Analysis of key texts and writings in Sufi philosophy. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1701",
+        "title": "Islamic Ethics Foundations Essay",
+        "course": "RS117",
+        "date_posted": "2024-01-20T23:59:00",
+        "date_due": "2024-01-27T23:59:00",
+        "description": "Essay on the foundational principles of ethics in Islam. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1702",
+        "title": "Ethical Dilemmas Analysis",
+        "course": "RS117",
+        "date_posted": "2024-02-15T23:59:00",
+        "date_due": "2024-02-22T23:59:00",
+        "description": "Analysis of ethical dilemmas and their resolutions in Islamic contexts. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1703",
+        "title": "Contemporary Issues in Islam Study",
+        "course": "RS117",
+        "date_posted": "2024-03-20T23:59:00",
+        "date_due": "2024-03-27T23:59:00",
+        "description": "Study contemporary issues facing the Muslim world. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1801",
+        "title": "Islamic Esotericism Introduction Report",
+        "course": "RS118",
+        "date_posted": "2024-01-22T23:59:00",
+        "date_due": "2024-01-29T23:59:00",
+        "description": "Introduction to the esoteric aspects of Islamic philosophy and mysticism. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1802",
+        "title": "Mystical Practices in Islam Essay",
+        "course": "RS118",
+        "date_posted": "2024-02-12T23:59:00",
+        "date_due": "2024-02-19T23:59:00",
+        "description": "Essay on mystical practices and spiritual experiences in Islam. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1803",
+        "title": "Key Esoteric Texts Study",
+        "course": "RS118",
+        "date_posted": "2024-03-12T23:59:00",
+        "date_due": "2024-03-19T23:59:00",
+        "description": "Study of key esoteric texts and their interpretations in Islamic mysticism. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1901",
+        "title": "Philosophical Foundations Paper",
+        "course": "RS119",
+        "date_posted": "2024-01-15T23:59:00",
+        "date_due": "2024-01-22T23:59:00",
+        "description": "Paper on the philosophical foundations of ancient Chinese thought. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A1902",
+        "title": "Political Systems Analysis",
+        "course": "RS119",
+        "date_posted": "2024-02-25T23:59:00",
+        "date_due": "2024-03-03T23:59:00",
+        "description": "Analysis of political systems and governance in ancient China. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A1903",
+        "title": "Cultural Practices Report",
+        "course": "RS119",
+        "date_posted": "2024-03-05T23:59:00",
+        "date_due": "2024-03-12T23:59:00",
+        "description": "Report on cultural practices and traditions in ancient China. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A2001",
+        "title": "Chinese Creation Myths Essay",
+        "course": "RS120",
+        "date_posted": "2024-01-10T23:59:00",
+        "date_due": "2024-01-17T23:59:00",
+        "description": "Essay on creation myths and cosmology in Chinese culture. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A2002",
+        "title": "Mythological Heroes Study",
+        "course": "RS120",
+        "date_posted": "2024-02-14T23:59:00",
+        "date_due": "2024-02-21T23:59:00",
+        "description": "Study of mythological heroes and their significance in Chinese mythology. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A2003",
+        "title": "Folklore and Legends Analysis",
+        "course": "RS120",
+        "date_posted": "2024-03-15T23:59:00",
+        "date_due": "2024-03-22T23:59:00",
+        "description": "Analysis of folklore and legends passed down in Chinese culture. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A2101",
+        "title": "Ancient Hydraulic Engineering Report",
+        "course": "RS121",
+        "date_posted": "2024-01-12T23:59:00",
+        "date_due": "2024-01-19T23:59:00",
+        "description": "Research and report on ancient hydraulic engineering techniques. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    },
+    {
+        "_id": "A2102",
+        "title": "Water Management Systems Study",
+        "course": "RS121",
+        "date_posted": "2024-02-20T23:59:00",
+        "date_due": "2024-02-27T23:59:00",
+        "description": "Study of water management systems and their impact on ancient civilizations. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 75
+    },
+    {
+        "_id": "A2103",
+        "title": "Environmental Sustainability Essay",
+        "course": "RS121",
+        "date_posted": "2024-03-10T23:59:00",
+        "date_due": "2024-03-17T23:59:00",
+        "description": "Essay on environmental sustainability practices in ancient societies. The assignment is available onlineLinks to an external site. Submit a link to the landing page of your Web application running on Netlify. The landing page should include the following: Your full name and section Links to each of the lab assignments Link to the Kanbas application Links to all relevant source code repositories",
+        "points": 100
+    }
+]

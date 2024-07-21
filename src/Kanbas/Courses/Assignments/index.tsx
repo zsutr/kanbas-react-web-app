@@ -2,13 +2,21 @@ import CoursesNavigation from "../Navigation";
 import LessonControlButtons from "../Modules/LessonControlButtons";
 import { BsGripVertical } from "react-icons/bs";
 import AssignmentControlButtons from "./AssignmentControlButtons"
+import { useParams } from "react-router";
 import { TiEdit } from "react-icons/ti";
 import { CiSearch } from "react-icons/ci";
 import { IoCaretDown } from "react-icons/io5";
 import { BsPlusLg } from "react-icons/bs";
+import * as db from "../../Database";
+
 
 
 export default function Assignments() {
+  const {cid} = useParams();
+  const assignments = db.assignments;
+  
+console.log()
+  console.log()
     return (
       <div id="wd-assignments">
      <div className="table">
@@ -45,81 +53,35 @@ export default function Assignments() {
                 </div>
                 <AssignmentControlButtons/>
               </div>
-              <ul className="wd-lessons list-group rounded-0 border-start border-5 border-success">
+            <ul className="wd-lessons list-group rounded-0 border-start border-5 border-success">
+                {assignments
+              .filter((assignment: any) => assignment.course === cid)
+              .map((assignment: any) => (
                 <li className="wd-lesson list-group-item">  
-                  <table className="table">
-                      <tr>
-                        <td rowSpan={2}> 
-                          <div>
-                            <BsGripVertical className="fs-3 me-2" />
-                            <TiEdit className="fs-3" style={{color: 'green'}} /> 
-                          </div>
-                        </td>
-                        <td>
-                          <div>
-                            <a className="wd-assignment-link text-uppercase fs-5"
-                            href="#/Kanbas/Courses/1234/Assignments/123">
-                              A1 - ENV + HTML
-                            </a><br/>
-                          <span className="red-txt">Multiple Modules</span> | <b>Not available until</b> May 6 at 12:00 am | <b>Due</b> May 13 at 11:59pm | 100 pts
-                          </div>
-                        </td>
-                        <td rowSpan={2}>
-                        <LessonControlButtons />
-                        </td>
-                      </tr>
-                    </table>
-                  </li>
-                  
-                  <li className="wd-lesson list-group-item">  
-                  <table className="table">
-                      <tr>
-                        <td rowSpan={2}> 
-                          <div>
-                            <BsGripVertical className="fs-3 me-2" />
-                            <TiEdit className="fs-3" style={{color: 'green'}}/> 
-                          </div>
-                        </td>
-                        <td>
-                          <div>
-                            <a className="wd-assignment-link text-uppercase fs-5"
-                            href="#/Kanbas/Courses/1234/Assignments/123">
-                             A2 - CSS + BOOOTSTRAP
-                            </a><br/>
-                          <span className="red-txt">Multiple Modules</span> | <b>Not available until</b> May 13 at 12:00 am | <b>Due</b> May 20 at 11:59pm | 100 pts
-                          </div>
-                        </td>
-                        <td rowSpan={2}>
-                        <LessonControlButtons />
-                        </td>
-                      </tr>
-                    </table>
-                  </li>
-
-                  <li className="wd-lesson list-group-item">  
-                  <table className="table">
-                      <tr>
-                        <td rowSpan={2}> 
-                          <div>
-                            <BsGripVertical className="fs-3 me-2" />
-                            <TiEdit className="fs-3 " style={{color: 'green'}}/> 
-                          </div>
-                        </td>
-                        <td>
-                          <div>
-                            <a className="wd-assignment-link text-uppercase fs-5"
-                            href="#/Kanbas/Courses/1234/Assignments/123">
-                              A3 - JavaScript + React
-                            </a><br/>
-                          <span className="red-txt">Multiple Modules</span> | <b>Not available until</b> May 20 at 12:00 am | <b>Due</b> May 27 at 11:59pm | 100 pts
-                          </div>
-                        </td>
-                        <td rowSpan={2}>
-                        <LessonControlButtons />
-                        </td>
-                      </tr>
-                    </table>
-                  </li>
+                <table className="table">
+                    <tr>
+                      <td rowSpan={2}> 
+                        <div>
+                          <BsGripVertical className="fs-3 me-2" />
+                          <TiEdit className="fs-3" style={{color: 'green'}} /> 
+                        </div>
+                      </td>
+                      <td>
+                        <div>
+                          <a className="wd-assignment-link text-uppercase fs-5"
+                          href={`#/Kanbas/Courses/${cid}/Assignments/${assignment._id}`}>
+                            {assignment.title}
+                          </a><br/>
+                        <span className="red-txt">Multiple Modules</span> | <b>Not available until</b> {assignment.date_posted} at 12:00 am | <b>Due</b> {assignment.date_due} at 11:59pm | {assignment.points} pts
+                        </div>
+                      </td>
+                      <td rowSpan={2}>
+                      <LessonControlButtons />
+                      </td>
+                    </tr>
+                  </table>
+                </li>
+            ))}
               </ul>
             </li>
       </ul>

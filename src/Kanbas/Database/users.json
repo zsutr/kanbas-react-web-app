@@ -1,0 +1,232 @@
+[
+    {
+      "_id": "121",
+      "username": "iron_man",
+      "password": "stark123",
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "email": "tony@stark.com",
+      "dob": "1970-05-29",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "122",
+      "username": "dark_knight",
+      "password": "wayne123",
+      "firstName": "Bruce",
+      "lastName": "Wayne",
+      "email": "bruce@wayne.com",
+      "dob": "1972-02-19",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "123",
+      "username": "capt_america",
+      "password": "rogers123",
+      "firstName": "Steve",
+      "lastName": "Rogers",
+      "email": "steve@avengers.com",
+      "dob": "1918-07-04",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "124",
+      "username": "black_widow",
+      "password": "romanoff123",
+      "firstName": "Natasha",
+      "lastName": "Romanoff",
+      "email": "natasha@avengers.com",
+      "dob": "1984-11-22",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "125",
+      "username": "thor_odinson",
+      "password": "mjolnir123",
+      "firstName": "Thor",
+      "lastName": "Odinson",
+      "email": "thor@asgard.com",
+      "dob": "982-05-25",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "126",
+      "username": "hulk_smash",
+      "password": "banner123",
+      "firstName": "Bruce",
+      "lastName": "Banner",
+      "email": "bruce@avengers.com",
+      "dob": "1969-12-18",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "127",
+      "username": "ring_bearer",
+      "password": "shire123",
+      "firstName": "Frodo",
+      "lastName": "Baggins",
+      "email": "frodo@shire.com",
+      "dob": "1368-09-22",
+      "role": "FACULTY"
+    },
+    {
+      "_id": "128",
+      "username": "strider",
+      "password": "aragorn123",
+      "firstName": "Aragorn",
+      "lastName": "Elessar",
+      "email": "aragorn@gondor.com",
+      "dob": "2931-03-01",
+      "role": "FACULTY"
+    },
+    {
+      "_id": "129",
+      "username": "elf_archer",
+      "password": "legolas123",
+      "firstName": "Legolas",
+      "lastName": "Greenleaf",
+      "email": "legolas@mirkwood.com",
+      "dob": "2879-07-15",
+      "role": "FACULTY"
+    },
+    {
+      "_id": "130",
+      "username": "king_north",
+      "password": "stark123",
+      "firstName": "Jon",
+      "lastName": "Snow",
+      "email": "jon@snow.com",
+      "dob": "1996-12-07",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "131",
+      "username": "queen_dragons",
+      "password": "targaryen123",
+      "firstName": "Daenerys",
+      "lastName": "Targaryen",
+      "email": "daenerys@targaryen.com",
+      "dob": "1992-06-22",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "132",
+      "username": "one_hand",
+      "password": "lannister123",
+      "firstName": "Jaime",
+      "lastName": "Lannister",
+      "email": "jaime@lannister.com",
+      "dob": "1975-04-12",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "133",
+      "username": "red_woman",
+      "password": "melisandre123",
+      "firstName": "Melisandre",
+      "lastName": "",
+      "email": "melisandre@redpriestess.com",
+      "dob": "1988-01-20",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "134",
+      "username": "little_finger",
+      "password": "baelish123",
+      "firstName": "Petyr",
+      "lastName": "Baelish",
+      "email": "petyr@baelish.com",
+      "dob": "1973-09-20",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "135",
+      "username": "hound",
+      "password": "clegane123",
+      "firstName": "Sandor",
+      "lastName": "Clegane",
+      "email": "sandor@clegane.com",
+      "dob": "1970-10-09",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "136",
+      "username": "queen_westeros",
+      "password": "lannister123",
+      "firstName": "Cersei",
+      "lastName": "Lannister",
+      "email": "cersei@lannister.com",
+      "dob": "1975-10-16",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "137",
+      "username": "lord_winterfell",
+      "password": "stark123",
+      "firstName": "Eddard",
+      "lastName": "Stark",
+      "email": "eddard@stark.com",
+      "dob": "1963-11-02",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "138",
+      "username": "brave_knight",
+      "password": "brienne123",
+      "firstName": "Brienne",
+      "lastName": "Tarth",
+      "email": "brienne@tarth.com",
+      "dob": "1980-05-08",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "139",
+      "username": "wildling_king",
+      "password": "mance123",
+      "firstName": "Mance",
+      "lastName": "Rayder",
+      "email": "mance@rayder.com",
+      "dob": "1960-01-15",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "140",
+      "username": "lord_friendzone",
+      "password": "mormont123",
+      "firstName": "Jorah",
+      "lastName": "Mormont",
+      "email": "jorah@mormont.com",
+      "dob": "1955-08-26",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "141",
+      "username": "halfman",
+      "password": "lannister123",
+      "firstName": "Tyrion",
+      "lastName": "Lannister",
+      "email": "tyrion@lannister.com",
+      "dob": "1975-10-12",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "142",
+      "username": "arya_wolf",
+      "password": "stark123",
+      "firstName": "Arya",
+      "lastName": "Stark",
+      "email": "arya@stark.com",
+      "dob": "2000-03-23",
+      "role": "STUDENT"
+    },
+    {
+      "_id": "143",
+      "username": "khal",
+      "password": "drogo123",
+      "firstName": "Khal",
+      "lastName": "Drogo",
+      "email": "khal@drogo.com",
+      "dob": "1982-12-17",
+      "role": "STUDENT"
+    }
+]

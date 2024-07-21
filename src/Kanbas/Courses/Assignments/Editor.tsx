@@ -1,6 +1,17 @@
 import CoursesNavigation from "../Navigation";
+import { useParams , useLocation } from "react-router";
+import * as db from "../../Database";
 
 export default function AssignmentEditor() {
+    console.log("Editor");
+    
+    const assignments = db.assignments;
+
+    const { pathname } = useLocation();
+    let aid = pathname.split("/")[5];
+    console.log(aid);
+    const asnmt = assignments.find((asnmt) => asnmt._id === aid);
+
     return (
         <div id="wd-assignments-editor" className="container">
             <div className="row">
@@ -10,11 +21,11 @@ export default function AssignmentEditor() {
                 <div className="col-md-9">
                     <div className="mb-3">
                         <label htmlFor="wd-name" className="form-label">Assignment Name</label>
-                        <input type="text" className="form-control" id="wd-name" defaultValue="A1 - ENV + HTML" />
+                        <input type="text" className="form-control" id="wd-name" defaultValue={asnmt?.title} />
                     </div>
                     <div className="mb-3">
                         <label htmlFor="wd-description" className="form-label">Description</label>
-                        <textarea className="form-control" id="wd-description" defaultValue="The assignment is available online. Submit a link to the landing page." />
+                        <textarea className="form-control" id="wd-description" defaultValue= {asnmt?.description} />
                     </div>
                   
                     <div className="row mb-3">
@@ -22,7 +33,7 @@ export default function AssignmentEditor() {
                             <label htmlFor="wd-points" className="form-label">Points</label>
                         </div>
                         <div className="col-md-6">
-                            <input type="number" className="form-control" id="wd-points" defaultValue={100} />
+                            <input type="number" className="form-control" id="wd-points" defaultValue={asnmt?.points} />
                         </div>
                     </div>
                     <div className="row mb-3">
@@ -102,17 +113,17 @@ export default function AssignmentEditor() {
                                         </div>
                                         <div className="col-md-6">
                                             <label htmlFor="wd-due-date" className="form-label">Due Date</label>
-                                            <input type="date" className="form-control" id="wd-due-date" defaultValue="2024-05-13" />
+                                            <input type="datetime-local" className="form-control" id="wd-due-date" defaultValue={asnmt?.date_due} />
                                         </div>
                                     </div>
                                     <div className="row mb-3">
                                         <div className="col-md-6">
                                             <label htmlFor="wd-available-from" className="form-label">Available From</label>
-                                            <input type="date" className="form-control" id="wd-available-from" defaultValue="2024-05-06" />
+                                            <input type="datetime-local" className="form-control" id="wd-available-from" defaultValue={ asnmt?.date_posted }/>
                                         </div>
                                         <div className="col-md-6">
                                             <label htmlFor="wd-available-until" className="form-label">Until</label>
-                                            <input type="date" className="form-control" id="wd-available-until" defaultValue="2024-05-20" />
+                                            <input type="datetime-local" className="form-control" id="wd-available-until" defaultValue={asnmt?.date_due} />
                                         </div>
                                     </div>
                                 </form>

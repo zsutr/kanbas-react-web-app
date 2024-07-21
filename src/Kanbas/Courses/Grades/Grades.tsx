@@ -4,11 +4,43 @@ import { LuFileInput , LuFileOutput } from "react-icons/lu";
 import { CiSearch , CiFilter } from "react-icons/ci";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
-
+import * as db from "../../Database";
+import { useParams } from "react-router";
 
 export default function Grades() {
+    const { cid } = useParams();
+    const users = db.users;
+    const assignments = db.assignments;
+    const grades = db.grades;
+    const enrollments = db.enrollments;
 
+  // Filter assignments by course ID
+    const courseAssignments = assignments.filter((assignment: any) => assignment.course === cid);
+    console.log("Assignments: ", courseAssignments);
+
+    // Filter enrollments by course ID
+    const enrolledStudents = enrollments.filter((enrollment: any) => enrollment.course === cid);
+    console.log("Users enrolled: ", enrolledStudents);
+
+    // Get students' grades for each assignment in the course
+    const studentGrades = enrolledStudents.map((enrollment: any) => {
+        const student = users.find((user: any) => user._id === enrollment.user);
+        if (!student) return null;
+
+        const gradesForStudent = courseAssignments.map((assignment: any) => {
+            const gradeRecord = grades.find((grade: any) => grade.student === enrollment.user && grade.assignment === assignment._id);
+            return gradeRecord ? gradeRecord.grade : "N/A";
+        });
+
+        console.log(`Grades for ${student.firstName} ${student.lastName}:`, gradesForStudent);
+
+        return {
+            studentName: `${student.firstName} ${student.lastName}`,
+            grades: gradesForStudent
+        };
+    }).filter((student: any) => student !== null); ;
+
+    //const asgmt_grades = grades.filter((grade: any) => grade.course === cid);
     return (
       
      <div className="container">
@@ -84,12 +116,24 @@ export default function Grades() {
                     <tbody>
                         <tr>
                             <th className="text-start">Student Name</th>
-                            <th>A1 - ENV + HTML<br/>Out of 100</th>
-                            <th>A2 - CSS + BOOOTSTRAP<br/>Out of 100</th>
-                            <th>A3 - JAVASCRIPT + REACT<br/> Out of 100</th>
-                            <th>A4 - DATABASES<br/> Out of 100</th>
+                          
+                            {assignments
+                            .filter((assignment: any) => assignment.course === cid)
+                            .map((assignment: any) => (
+                                <th>{assignment.title}</th>
+                            ))
+                            }
                         </tr>
-                    
+
+                        {studentGrades.map((student: any, index: number) => (
+                            <tr key={index}>
+                                <td className="text-start">{student.studentName}</td>
+                                {student.grades.map((grade: string, index: number) => (
+                                    <td key={index}>{grade}</td>
+                                ))}
+                            </tr>
+                        ))}
+{/*                     
                         <tr >
                             <td className="text-start text-danger">Jerry Seinfeld</td>
                             <td>100%</td>
@@ -100,7 +144,6 @@ export default function Grades() {
                                     className="form-control  w-50"
                                 />
                             </td>
-                            <td>100%</td>
                             <td>100%</td>
                         </tr>
                         <tr >
@@ -114,7 +157,6 @@ export default function Grades() {
                                 />
                             </td>
                             <td>100%</td>
-                            <td>100%</td>
                         </tr>
                         <tr >
                             <td className="text-start text-danger">Harry Potter</td>
@@ -126,7 +168,6 @@ export default function Grades() {
                                     className="form-control  w-50"
                                 />
                             </td>
-                            <td>100%</td>
                             <td>100%</td>
                         </tr>
                         <tr >
@@ -140,7 +181,6 @@ export default function Grades() {
                                 />
                             </td>
                             <td>100%</td>
-                            <td>100%</td>
                         </tr>
                         <tr >
                             <td className="text-start text-danger">Bill Gates</td>
@@ -152,7 +192,6 @@ export default function Grades() {
                                     className="form-control  w-50"
                                 />
                             </td>
-                            <td>100%</td>
                             <td>100%</td>
                         </tr>
                         <tr >
@@ -166,8 +205,7 @@ export default function Grades() {
                                 />
                             </td>
                             <td>100%</td>
-                            <td>100%</td>
-                        </tr>
+                        </tr> */}
                   
                     </tbody>
                     </table>
