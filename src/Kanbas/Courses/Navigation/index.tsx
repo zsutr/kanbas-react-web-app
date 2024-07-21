@@ -1,6 +1,5 @@
-import { courses } from "../../Database";
-import { Navigate, Route, Routes, useParams, useLocation } from "react-router";
-import { Link, NavLink } from 'react-router-dom'
+import {useParams } from "react-router";
+import { Link } from 'react-router-dom'
 import "./index.css"
 
 
@@ -8,8 +7,8 @@ import "./index.css"
 export default function CoursesNavigation() {
 
   const {cid} = useParams();
-  const { pathname } = useLocation();
-  const endpath = pathname.split("/")[4]
+  // const { pathname } = useLocation();
+  // const endpath = pathname.split("/")[4]
   
 
   const links = ["Home", "Modules", "Piazza", "Zoom", "Assignments", "Quizzes", "Grades"];

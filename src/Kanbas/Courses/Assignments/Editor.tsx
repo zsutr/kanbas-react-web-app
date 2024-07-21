@@ -1,5 +1,5 @@
 import CoursesNavigation from "../Navigation";
-import { useParams , useLocation } from "react-router";
+import { useLocation } from "react-router";
 import * as db from "../../Database";
 
 export default function AssignmentEditor() {

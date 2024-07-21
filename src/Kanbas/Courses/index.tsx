@@ -6,7 +6,6 @@ import AssignmentEditor from "./Assignments/Editor";
 import { Navigate, Route, Routes, useParams, useLocation } from "react-router";
 import { FaAlignJustify } from "react-icons/fa6";
 import Grades from "./Grades/Grades";
-import CoursesNavigation from "./Navigation";
 
 
 export default function Courses() {
