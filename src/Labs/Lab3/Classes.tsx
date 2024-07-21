@@ -9,7 +9,6 @@ export default function Classes() {
 //         Blue background    </div>
 //       <div className="wd-bg-red wd-fg-black wd-padding-10px">
 //         Red background     </div><hr/>
-    const color = 'blue';
     const dangerous = true;
 
     return (
