@@ -1,10 +1,17 @@
+import PassingFunctions from "./PassingFunctions";
+import ReduxExamples from "./ReduxExamples";
 
 export default function Lab4() {
-  console.log('Hello World!');
-  
+  function sayHello() {
+    alert("Hello");
+  }
   return (
-    <div id="wd-lab3" className="container-fluid">
-      <h3>Lab 4</h3>
+    <div id="wd-passing-functions">
+      <h2>Lab 4</h2>
+      ...
+      <PassingFunctions theFunction={sayHello} />
+      <ReduxExamples/>
+
     </div>
   );
 }
