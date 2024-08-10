@@ -1,16 +1,53 @@
+import React, { useState } from "react";
+import { useLocation, useNavigate } from "react-router";
+import { useDispatch , useSelector } from "react-redux";
+import { addAssignment , updateAssignment } from "./reducer";
 import CoursesNavigation from "../Navigation";
-import { useLocation } from "react-router";
-import * as db from "../../Database";
+// import * as db from "../../Database";
 
 export default function AssignmentEditor() {
     console.log("Editor");
-    
-    const assignments = db.assignments;
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    //const assignments = db.assignments;
+    const { assignments } = useSelector((state: any) => state.assignmentsReducer)
 
     const { pathname } = useLocation();
     let aid = pathname.split("/")[5];
     console.log(aid);
-    const asnmt = assignments.find((asnmt) => asnmt._id === aid);
+    const asnmt = assignments.find((asnmt: { _id: string; }) => asnmt._id === aid);
+
+    const [assignmentName, setAssignmentName] = useState(asnmt?.title || "");
+    const [description, setDescription] = useState(asnmt?.description || "");
+    const [points, setPoints] = useState(asnmt?.points || "");
+    const [dueDate, setDueDate] = useState(asnmt?.date_due || "");
+    const [availableFrom, setAvailableFrom] = useState(asnmt?.date_posted || "");
+    const [availableUntil, setAvailableUntil] = useState(asnmt?.date_due || "");
+    
+    const handleSave = () => {
+        const newAsnmt = {
+            _id: asnmt ? asnmt._id : new Date().getTime().toString(), // Use existing ID or generate a new one
+            title: assignmentName,
+            course: pathname.split("/")[3], 
+            date_posted: availableFrom,
+            date_due: dueDate,
+            points: points,
+            description: description,
+        };
+    
+        if (asnmt) {
+            dispatch(updateAssignment(newAsnmt)); 
+          } else {
+            dispatch(addAssignment(newAsnmt));
+          }
+          
+          navigate(`/Kanbas/Courses/${pathname.split("/")[3]}/Assignments`); 
+    };
+
+    const handleCancel = () => {
+        navigate(`/Kanbas/Courses/${pathname.split("/")[3]}/Assignments`); 
+      };
 
     return (
         <div id="wd-assignments-editor" className="container">
@@ -20,22 +57,46 @@ export default function AssignmentEditor() {
                 </div>
                 <div className="col-md-9">
                     <div className="mb-3">
-                        <label htmlFor="wd-name" className="form-label">Assignment Name</label>
-                        <input type="text" className="form-control" id="wd-name" defaultValue={asnmt?.title} />
+                        <label htmlFor="wd-name" className="form-label">
+                        Assignment Name
+                        </label>
+                        <input
+                        type="text"
+                        className="form-control"
+                        id="wd-name"
+                        value={assignmentName}
+                        onChange={(e) => setAssignmentName(e.target.value)}
+                        />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="wd-description" className="form-label">Description</label>
-                        <textarea className="form-control" id="wd-description" defaultValue= {asnmt?.description} />
+                        <label htmlFor="wd-description" className="form-label">
+                        Description
+                        </label>
+                        <textarea
+                        className="form-control"
+                        id="wd-description"
+                        value={description}
+                        onChange={(e) => setDescription(e.target.value)}
+                        />
                     </div>
                   
                     <div className="row mb-3">
                         <div className="col-md-6 text-end">
-                            <label htmlFor="wd-points" className="form-label">Points</label>
+                        <label htmlFor="wd-points" className="form-label">
+                            Points
+                        </label>
                         </div>
                         <div className="col-md-6">
-                            <input type="number" className="form-control" id="wd-points" defaultValue={asnmt?.points} />
+                        <input
+                            type="number"
+                            className="form-control"
+                            id="wd-points"
+                            value={points}
+                            onChange={(e) => setPoints(e.target.value)}
+                        />
                         </div>
                     </div>
+                    
                     <div className="row mb-3">
                         <div className="col-md-6 text-end">
                             <label htmlFor="wd-group" className="form-label">Assignment Group</label>
@@ -113,17 +174,35 @@ export default function AssignmentEditor() {
                                         </div>
                                         <div className="col-md-6">
                                             <label htmlFor="wd-due-date" className="form-label">Due Date</label>
-                                            <input type="datetime-local" className="form-control" id="wd-due-date" defaultValue={asnmt?.date_due} />
+                                            <input
+                                                type="datetime-local"
+                                                className="form-control"
+                                                id="wd-due-date"
+                                                value={dueDate}
+                                                onChange={(e) => setDueDate(e.target.value)}
+                                            />
                                         </div>
                                     </div>
                                     <div className="row mb-3">
                                         <div className="col-md-6">
                                             <label htmlFor="wd-available-from" className="form-label">Available From</label>
-                                            <input type="datetime-local" className="form-control" id="wd-available-from" defaultValue={ asnmt?.date_posted }/>
+                                            <input
+                                                type="datetime-local"
+                                                className="form-control"
+                                                id="wd-available-from"
+                                                value={availableFrom}
+                                                onChange={(e) => setAvailableFrom(e.target.value)}
+                                            />
                                         </div>
                                         <div className="col-md-6">
                                             <label htmlFor="wd-available-until" className="form-label">Until</label>
-                                            <input type="datetime-local" className="form-control" id="wd-available-until" defaultValue={asnmt?.date_due} />
+                                            <input
+                                                type="datetime-local"
+                                                className="form-control"
+                                                id="wd-available-until"
+                                                value={availableUntil}
+                                                onChange={(e) => setAvailableUntil(e.target.value)}
+                                            />
                                         </div>
                                     </div>
                                 </form>
@@ -133,8 +212,20 @@ export default function AssignmentEditor() {
                   
                     <hr/>
                     <div className="mb-3 text-end">
-                        <button className="btn btn-lg btn-secondary mx-2" id="wd-add-assignment-group">Cancel</button>
-                        <button className="btn btn-lg btn-danger" id="wd-add-assignment">Save</button>
+                        <button
+                            className="btn btn-lg btn-secondary mx-2"
+                            id="wd-add-assignment-group"
+                            onClick={handleCancel} 
+                        >
+                        Cancel
+                        </button>
+                        <button
+                            className="btn btn-lg btn-danger"
+                            id="wd-add-assignment"
+                            onClick={handleSave} 
+                        >
+                        Save
+                        </button>
                     </div>
                 
                 </div>

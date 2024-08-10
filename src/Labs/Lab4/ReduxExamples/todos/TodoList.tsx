@@ -7,7 +7,7 @@ export default function TodoList() {
   return (
     <div id="wd-todo-list-redux">
       <h2>Todo List</h2>
-      <ul className="list-group">
+      <ul className="list-group w-50">
         <TodoForm />
         {todos.map((todo: any) => (
           <TodoItem todo={todo} />

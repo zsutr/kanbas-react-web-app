@@ -3,12 +3,13 @@ import GreenCheckmark from "./GreenCheckmark";
 import '@popperjs/core';
 import 'bootstrap';
 import { TiCancel } from "react-icons/ti";
+import ModuleEditor from "./ModuleEditor";
 
 
-export default function ModulesControls() {
+export default function ModulesControls(
+{ moduleName, setModuleName, addModule }:
+{ moduleName: string; setModuleName: (title: string) => void; addModule: () => void; }) {
   return (
-    
-
     <div id="wd-modules-controls" className="text-nowrap">
         <table id="wd-home">
         <tr>
@@ -63,13 +64,16 @@ export default function ModulesControls() {
         </div>
             </td>
             <td valign="top">
-                <button id="wd-add-module-btn" className="btn btn-danger me-1 float-end">
-            <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
-            Module
-        </button>
+            <button className="btn btn-danger me-1 float-end"
+                data-bs-toggle="modal" data-bs-target="#wd-add-module-dialog" >
+                <FaPlus className="position-relative me-2" style={{ bottom: "1px" }} />
+                Module
+            </button>
             </td>
         </tr>
         </table>  
+        <ModuleEditor dialogTitle="Add Module" moduleName={moduleName}
+                    setModuleName={setModuleName} addModule={addModule} />
     </div>
   );
 }
