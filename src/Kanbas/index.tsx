@@ -23,7 +23,7 @@ export default function Kanbas() {
   };
 
   const deleteCourse = (courseId: string) => {
-    setCourses(courses.filter((course) => course._id === courseId));
+    setCourses(courses.filter((course) => course._id !== courseId));
   };
 
   const updateCourse = () => {
